@@ -1,0 +1,11 @@
+{
+  "name": "smart-food-safety-root",
+  "version": "1.0.0",
+  "description": "Smart Food Safety Complaint and Monitoring Platform",
+  "scripts": {
+    "dev": "node run.js",
+    "start": "node run.js",
+    "install:all": "npm install --prefix Smart-Food-Safety/backend && npm install --prefix Smart-Food-Safety/frontend",
+    "build": "npm run build --prefix Smart-Food-Safety/frontend"
+  }
+}

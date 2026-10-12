@@ -1,0 +1,91 @@
+.authority-login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f7f5;
+  padding: 30px;
+}
+
+.authority-login-card {
+  width: 430px;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.10);
+}
+
+.authority-logo {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8f5ec;
+  border-radius: 50%;
+  font-size: 35px;
+}
+
+.authority-login-card h1 {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #14532d;
+  font-size: 28px;
+}
+
+.authority-subtitle {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.authority-login-card label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 7px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.authority-login-card input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+.authority-login-card input:focus {
+  border-color: #15803d;
+}
+
+.authority-login-card form button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #15803d;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.authority-login-card form button:hover {
+  background: #166534;
+}
+
+.back-home {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  color: #166534;
+  cursor: pointer;
+  font-size: 14px;
+}

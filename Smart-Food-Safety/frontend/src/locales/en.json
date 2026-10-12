@@ -1,0 +1,268 @@
+{
+  "brand": {
+    "name": "FoodSafe Easy",
+    "tagline": "Simple, accessible food safety complaint reporting"
+  },
+  "nav": {
+    "home": "Home",
+    "standardMode": "Standard Form",
+    "easyMode": "Easy Mode",
+    "track": "Track Complaint",
+    "selectLanguage": "Select Language"
+  },
+  "steps": {
+    "step1": "1. What Happened",
+    "step2": "2. Where It Happened",
+    "step3": "3. Details & Photo",
+    "step4": "4. Review & Submit",
+    "stepCount": "Step {{current}} of {{total}}"
+  },
+  "actions": {
+    "next": "Continue",
+    "back": "Go Back",
+    "submit": "Submit Complaint",
+    "submitting": "Submitting Complaint...",
+    "edit": "Change",
+    "copyId": "Copy Complaint ID",
+    "copied": "Copied to Clipboard!",
+    "trackComplaint": "Track This Complaint",
+    "returnHome": "Back to Home",
+    "uploadPhoto": "Take Photo or Upload Image",
+    "changePhoto": "Change Photo",
+    "removePhoto": "Remove Photo"
+  },
+  "step1": {
+    "title": "What is wrong with the food?",
+    "subtitle": "Tap the card that best matches your problem",
+    "categories": {
+      "spoiled": {
+        "title": "Spoiled or Rotten Food",
+        "desc": "Bad smell, stale taste, mold, decomposed or fungus on food"
+      },
+      "insect": {
+        "title": "Insect or Foreign Object",
+        "desc": "Dead insect, cockroach, fly, worm, hair, glass, plastic, or stone in food"
+      },
+      "hygiene": {
+        "title": "Unhygienic Preparation",
+        "desc": "Dirty water, bare dirty hands, unwashed utensils, flies, rodents around food"
+      },
+      "expired": {
+        "title": "Expired Packaged Food",
+        "desc": "Expired 'Use By' / 'Best Before' date, torn seal, bloated packet"
+      },
+      "adulteration": {
+        "title": "Suspected Adulteration",
+        "desc": "Synthetic color, chemical smell, diluted milk, fake paneer, stone powder in spices"
+      },
+      "other": {
+        "title": "Other Food Safety Concern",
+        "desc": "Any other food safety or hygiene issue not listed above"
+      }
+    }
+  },
+  "step2": {
+    "title": "Where did you buy or see the food?",
+    "subtitle": "Choose if this was a registered shop or a street stall",
+    "shopTypes": {
+      "listed": {
+        "title": "Listed Shop / Restaurant",
+        "desc": "Registered grocery store, hotel, supermarket, or dairy found in our list"
+      },
+      "unlisted": {
+        "title": "Roadside Stall / Street Vendor / Unlisted Shop",
+        "desc": "Vadapav stall, tea stall, thela, cart, market seller, or shop not in our list"
+      }
+    },
+    "listedSection": {
+      "selectShop": "Select Shop or Restaurant",
+      "choosePlaceholder": "-- Tap here to select shop --",
+      "searchPlaceholder": "Search shop by name or city...",
+      "selectedLabel": "Selected Establishment:"
+    },
+    "unlistedSection": {
+      "notice": "You can report any food stall even without an official registration. Street vendors are protected and welcome to be reported. Absence from our list does NOT mean the vendor is illegal.",
+      "sellerTypeLabel": "Type of Food Stall / Seller",
+      "sellerTypes": {
+        "roadsideStall": "Roadside Food Stall (Vadapav, Chaat, Juice)",
+        "foodCart": "Street Food Cart / Thela",
+        "smallShop": "Small Tea Stall / Bakery / Dhaba",
+        "restaurant": "Restaurant (Not in our list)",
+        "marketStall": "Temporary Market / Bazaar Stall",
+        "other": "Other / Unknown Vendor"
+      },
+      "shopNameLabel": "Stall or Shop Name (Optional)",
+      "shopNamePlaceholder": "e.g., Raju Chaat Centre (leave blank if unknown)",
+      "landmarkLabel": "Where is the stall located? (Landmark)",
+      "landmarkPlaceholder": "e.g., Opposite Railway Station Gate 2, near bus stand under big tree",
+      "addressLabel": "Area / Road Address (Optional)",
+      "addressPlaceholder": "e.g., Station Road, near auto stand",
+      "fssaiLabel": "FSSAI Registration Number (Optional)",
+      "fssaiPlaceholder": "If displayed on banner or receipt (not required)"
+    }
+  },
+  "step3": {
+    "title": "Tell us more about the food",
+    "subtitle": "Share the food name and what happened",
+    "productLabel": "Name of Food Item",
+    "productPlaceholder": "e.g., Vadapav, Milk, Biryani, Samosa, Paneer",
+    "incidentDateLabel": "When did this happen?",
+    "descriptionLabel": "What happened? (Simple description)",
+    "descriptionPlaceholder": "e.g., I bought vadapav this afternoon. The chutney had worms inside and the oil smelled burnt. Please inspect this stall.",
+    "photoLabel": "Add Photo Evidence (Optional)",
+    "photoHelp": "Clear photos of food, packaging, or stall help officers take faster action. Maximum size 5 MB (JPG, PNG, WEBP).",
+    "photoSelected": "Photo attached"
+  },
+  "step4": {
+    "title": "Check your details before submitting",
+    "subtitle": "Review everything below. Tap 'Change' if you need to fix anything.",
+    "summary": {
+      "problem": "Problem with food",
+      "foodItem": "Food Item",
+      "seller": "Seller / Stall",
+      "sellerType": "Seller Type",
+      "location": "Location / Landmark",
+      "date": "Date of Incident",
+      "description": "What Happened",
+      "photo": "Photo Evidence",
+      "photoAttached": "1 photo attached",
+      "noPhoto": "No photo attached (allowed)",
+      "coordinates": "GPS Coordinates",
+      "noCoordinates": "No GPS coordinates (Manual landmark provided)"
+    },
+    "confirmation": "I confirm that this information is accurate to the best of my knowledge and submitted in good faith.",
+    "disclaimer": "FoodSafe AI is an independent citizen food safety reporting system. This filing will be reviewed by food safety teams."
+  },
+  "success": {
+    "title": "Complaint Submitted Successfully!",
+    "subtitle": "Thank you for helping keep food safe for everyone.",
+    "complaintIdLabel": "Your FoodSafe Complaint ID",
+    "nextStepsTitle": "What happens next?",
+    "step1Text": "Our food safety inspection team will review your report.",
+    "step2Text": "If required, a field officer will be dispatched to inspect the seller.",
+    "step3Text": "You can check progress anytime using your Complaint ID.",
+    "disclaimer": "Note: FoodSafe AI Complaint ID is an independent grievance tracking reference. It is not an official government FSSAI registration number."
+  },
+  "errors": {
+    "categoryRequired": "Please tap on a card to select what went wrong with the food.",
+    "shopRequired": "Please select a shop from the list.",
+    "sellerTypeRequired": "Please select what kind of food stall or seller it is.",
+    "landmarkRequired": "Please tell us where the food stall is located (landmark).",
+    "productRequired": "Please enter the name of the food item.",
+    "descriptionRequired": "Please write a few words explaining what happened (at least 5 characters).",
+    "confirmationRequired": "Please check the confirmation box before submitting.",
+    "photoTooBig": "Image file is too large. Please select a photo under 5 MB.",
+    "photoBadFormat": "Only JPG, PNG and WEBP image files are allowed.",
+    "genericSubmitError": "Could not submit your complaint. Please check your internet connection and try again."
+  },
+  "voice": {
+    "title": "FoodSafe Voice — Speak Your Complaint",
+    "badge": "Voice Assistant",
+    "subtitle": "Speak in English, Hindi, or Marathi. We'll transcribe it for you to review, edit, and confirm.",
+    "buttonStart": "Speak Your Complaint",
+    "buttonStop": "Stop Listening",
+    "listening": "Listening... Speak clearly into your microphone",
+    "interim": "Listening...",
+    "instructionsBtn": "Listen to Spoken Instructions",
+    "instructionsStop": "Stop Instructions",
+    "spokenGuide": "Please describe your complaint.",
+    "transcriptLabel": "Recognized Words (Tap to edit):",
+    "transcriptPlaceholder": "Your spoken words will appear here...",
+    "confirmAction": "Use This Description",
+    "confirmAppend": "Add to Existing Text",
+    "confirmReplace": "Replace Existing Text",
+    "retryAction": "Speak Again",
+    "clearAction": "Clear Voice Text",
+    "confirmedNotice": "Description updated from voice input!",
+    "notSupported": "Voice input is not supported in this browser. Please type your complaint in the box below.",
+    "permissionDenied": "Microphone permission was denied. Please allow microphone access in your browser settings or type below.",
+    "noSpeech": "No speech detected. Please tap the button and speak closer to your microphone.",
+    "privacyNotice": "Privacy: Voice is processed by your browser speech engine. No raw audio recordings are stored on our servers."
+  },
+  "location": {
+    "title": "FoodSafe Location — Select Food Seller Location",
+    "subtitle": "Choose how you'd like to identify where the food stall is located",
+    "tabCurrent": "Use My Location",
+    "tabMap": "Select on Map",
+    "tabManual": "Enter Landmark Manually",
+    "currentLocationBtn": "Detect My Location",
+    "detectingLocation": "Detecting location...",
+    "permissionNotice": "We request your location once to place the pin near you. You can then move the pin to the food stall's actual location.",
+    "locationFound": "Location found! Move the marker if the stall is nearby, then tap Confirm.",
+    "confirmLocation": "Confirm Seller Location",
+    "locationConfirmed": "Seller location confirmed!",
+    "clearLocation": "Remove Coordinates",
+    "changeMethod": "Change Location Method",
+    "coordinatesLabel": "GPS Coordinates:",
+    "accuracyLabel": "Accuracy: ±{{meters}}m",
+    "mapHint": "Tap on map or drag the green pin to the food seller's spot.",
+    "mapLoading": "Loading interactive map...",
+    "mapError": "Could not load map tiles. You can still enter landmark manually.",
+    "privacyNotice": "Privacy note: Coordinates are saved solely to locate the food seller. We never track your personal movements.",
+    "errors": {
+      "notSupported": "Geolocation is not supported by your browser.",
+      "permissionDenied": "Location permission was denied. Please enter the landmark manually below.",
+      "timeout": "Location request timed out. Please try again or enter landmark manually.",
+      "unavailable": "Location information unavailable. Please enter landmark manually.",
+      "missingCoords": "Both latitude and longitude must be selected."
+    }
+  },
+  "intelligence": {
+    "title": "FoodSafe Intelligence",
+    "subtitle": "Complaint Analytics, Duplicate Detection & Hotspot Decision Support",
+    "tabs": {
+      "overview": "Intelligence Overview",
+      "hotspots": "Hotspot Map",
+      "duplicates": "Potential Duplicate Queue",
+      "risk": "Explainable Risk Inspector",
+      "trends": "Trend Analytics"
+    },
+    "hotspots": {
+      "filterTime": "Time Window",
+      "filterCategory": "Category",
+      "filterStatus": "Investigation Status",
+      "filterMinThreshold": "Privacy Grouping Threshold",
+      "allTime": "All Records",
+      "days7": "Last 7 Days",
+      "days30": "Last 30 Days",
+      "days90": "Last 90 Days",
+      "allCategories": "All Grievance Categories",
+      "allStatuses": "All Statuses",
+      "verifiedOnly": "Verified Findings",
+      "reportedOnly": "Reported Concerns",
+      "totalClusters": "Geographic Clusters",
+      "reportsCount": "Reported Concerns",
+      "verifiedCount": "Verified Findings",
+      "privacyNotice": "Privacy Safeguard: Small clusters below threshold are suppressed. Coordinates are generalized and complainant identities are strictly redacted."
+    },
+    "duplicates": {
+      "similarityScore": "Matching Score",
+      "reasons": "Matching Factors",
+      "markRelated": "Mark as Related",
+      "markUnrelated": "Mark as Unrelated",
+      "dismiss": "Dismiss Suggestion",
+      "reviewNotes": "Review Rationale / Notes",
+      "noDuplicates": "No pending duplicate complaint pairs identified.",
+      "disclaimer": "Records are never automatically merged or deleted. Both original complaints remain preserved."
+    },
+    "risk": {
+      "score": "Calculated Risk Score",
+      "priority": "Triage Priority",
+      "scoringVersion": "Scoring Engine Version",
+      "factors": "Contributing Risk Factors",
+      "override": "Manual Priority Override",
+      "overrideReason": "Documented Justification",
+      "overrideSuccess": "Priority successfully updated with documented rationale.",
+      "disclaimer": "Non-binding triage indicator. Does not constitute judicial or laboratory verification."
+    },
+    "adulterationScreening": {
+      "title": "Food Adulteration Educational Screening",
+      "subtitle": "Rule-based household rapid screening guidance adhering to official FSSAI DART guidelines.",
+      "disclaimer": "FoodSafe AI provides educational screening guidance based on user-reported observations and basic food safety information. Results do not confirm food adulteration and are not a substitute for testing by an authorized laboratory or assessment by qualified food safety professionals.",
+      "scoreLabel": "Educational Screening Score (Heuristic Guidance)",
+      "scoreNote": "Heuristic benchmark; not a calibrated probability or certified laboratory finding.",
+      "statutoryNotice": "Statutory Notice: Household rapid tests screen for chemical or physical indicators under FSSAI DART manuals. Judicial enforcement requires accredited laboratory analysis.",
+      "officialReferenceText": "Official FSSAI DART Guide"
+    }
+  }
+}

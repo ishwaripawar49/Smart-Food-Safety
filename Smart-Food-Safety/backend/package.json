@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Smart Food Safety Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test_phase1_comprehensive.js",
+    "test:unlisted": "node test_phase1_unlisted_sellers.js",
+    "test:easy": "node test_phase2_easy_reporting.js",
+    "test:voice": "node test_phase3_voice_assistant.js",
+    "test:location": "node test_phase4_location_reporting.js",
+    "test:intelligence": "node test_phase5_intelligence_analytics.js",
+    "test:phase6-id": "node test_phase6_1_complaint_id_collision.js",
+    "test:phase6-privacy": "node test_phase6_1_hotspot_privacy.js",
+    "test:phase6-adulteration": "node test_phase6_1_adulteration_accuracy.js",
+    "test:phase6-all": "npm run test:phase6-id && npm run test:phase6-privacy && npm run test:phase6-adulteration"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.3.0",
+    "mysql2": "^3.24.3",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8"
+  }
+}

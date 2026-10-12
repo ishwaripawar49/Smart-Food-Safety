@@ -1,0 +1,150 @@
+{
+  "passedTests": 24,
+  "failedTests": 0,
+  "resultsLog": [
+    {
+      "id": "SETUP-BROWSER",
+      "status": "PASSED",
+      "message": "Local Chrome launched successfully",
+      "details": ""
+    },
+    {
+      "id": "HERO-BG-IMG-LOADED",
+      "status": "PASSED",
+      "message": "High-resolution clean hero background image loaded successfully (naturalWidth > 0)",
+      "details": ""
+    },
+    {
+      "id": "HERO-NO-DUPLICATE-BASKET",
+      "status": "PASSED",
+      "message": "Verified old duplicate vegetable basket component is removed",
+      "details": ""
+    },
+    {
+      "id": "HERO-NO-UNSUPPORTED-METRICS",
+      "status": "PASSED",
+      "message": "Verified unsupported 94% resolution rate badges are removed",
+      "details": ""
+    },
+    {
+      "id": "HERO-SLOGAN-HTML-TEXT",
+      "status": "PASSED",
+      "message": "Slogan rendered as actual React/HTML text: \"Safe Food\", \"Healthy People\", \"Stronger Communities\"",
+      "details": ""
+    },
+    {
+      "id": "HERO-SLOGAN-DECORATIONS",
+      "status": "PASSED",
+      "message": "Slogan botanical leaf icon and curved underline SVG are present",
+      "details": ""
+    },
+    {
+      "id": "HERO-NO-TEXT-OVERLAP",
+      "status": "PASSED",
+      "message": "Verified headline (right: 788px) does not overlap slogan (left: 977px)",
+      "details": ""
+    },
+    {
+      "id": "HERO-HEADING",
+      "status": "PASSED",
+      "message": "Heading matches: 'Safer Food for Healthier Communities'",
+      "details": ""
+    },
+    {
+      "id": "HERO-DESC",
+      "status": "PASSED",
+      "message": "Hero description explains platform purpose",
+      "details": ""
+    },
+    {
+      "id": "HERO-REPORT-BTN",
+      "status": "PASSED",
+      "message": "Primary CTA '#hero-report-btn' (Report Food Problem) is present",
+      "details": ""
+    },
+    {
+      "id": "HERO-EASY-BTN",
+      "status": "PASSED",
+      "message": "Secondary CTA '#hero-easy-complaint-btn' (FoodSafe Easy) is present",
+      "details": ""
+    },
+    {
+      "id": "HERO-TRUST-ROW",
+      "status": "PASSED",
+      "message": "Trust checkmarks present (count: 3)",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-320PX",
+      "status": "PASSED",
+      "message": "320px (Mobile Mini) [320px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-360PX",
+      "status": "PASSED",
+      "message": "360px (Mobile Compact) [360px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-390PX",
+      "status": "PASSED",
+      "message": "390px (iPhone Standard) [390px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "MOBILE-ARTWORK-LOADED",
+      "status": "PASSED",
+      "message": "Mobile artwork card loaded with full dimensions without text overlap",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-430PX",
+      "status": "PASSED",
+      "message": "430px (iPhone Plus/Max) [430px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-768PX",
+      "status": "PASSED",
+      "message": "768px (Tablet Portrait) [768px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-1024PX",
+      "status": "PASSED",
+      "message": "1024px (Tablet Landscape) [1024px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-1440PX",
+      "status": "PASSED",
+      "message": "1440px (Desktop Standard) [1440px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-1920PX",
+      "status": "PASSED",
+      "message": "1920px (Desktop Full HD) [1920px]: Zero horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "NAV-REPORT-BTN",
+      "status": "PASSED",
+      "message": "Clicking #hero-report-btn navigates to /submit-complaint",
+      "details": ""
+    },
+    {
+      "id": "NAV-EASY-BTN",
+      "status": "PASSED",
+      "message": "Clicking #hero-easy-complaint-btn navigates to /easy-complaint",
+      "details": ""
+    },
+    {
+      "id": "CONSOLE-INTEGRITY",
+      "status": "PASSED",
+      "message": "Zero critical console errors (count: 0)",
+      "details": ""
+    }
+  ]
+}

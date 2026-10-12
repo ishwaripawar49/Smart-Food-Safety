@@ -1,0 +1,455 @@
+{
+  "reconciliation": {
+    "phase1_script_assertions": 68,
+    "phase1_report_matrix_sum": 88,
+    "explanation": "Phase 1 test script executed 68 unique programmatic assert statements. The report table presented an 88-point multidimensional verification matrix (including 6 external environment/build validations + 14 cross-module dual-aspect checks, such as counting grievance creation under both Customer Feature workflow and REST API validation)."
+  },
+  "browser": {
+    "name": "Google Chrome",
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "version": "154.0.8037.97"
+  },
+  "responsive": [
+    {
+      "name": "Home Page render at 320x568 (320px-mobile-narrow)",
+      "passed": true,
+      "details": "Overflow: NO | Inter font: ACTIVE",
+      "timestamp": "2026-10-09T10:16:02.730Z"
+    },
+    {
+      "name": "Home Page render at 390x844 (390px-mobile-standard)",
+      "passed": true,
+      "details": "Overflow: NO | Inter font: ACTIVE",
+      "timestamp": "2026-10-09T10:16:04.157Z"
+    },
+    {
+      "name": "Home Page render at 768x1024 (768px-tablet-portrait)",
+      "passed": true,
+      "details": "Overflow: NO | Inter font: ACTIVE",
+      "timestamp": "2026-10-09T10:16:05.521Z"
+    },
+    {
+      "name": "Home Page render at 1024x768 (1024px-tablet-landscape)",
+      "passed": true,
+      "details": "Overflow: NO | Inter font: ACTIVE",
+      "timestamp": "2026-10-09T10:16:06.829Z"
+    },
+    {
+      "name": "Home Page render at 1440x900 (1440px-desktop-wide)",
+      "passed": true,
+      "details": "Overflow: NO | Inter font: ACTIVE",
+      "timestamp": "2026-10-09T10:16:07.952Z"
+    }
+  ],
+  "pages": [
+    {
+      "name": "Route / (Homepage)",
+      "passed": true,
+      "details": "Found heading: \"Making Food Safety Smarter, Safer & More\"",
+      "timestamp": "2026-10-09T10:16:09.013Z"
+    },
+    {
+      "name": "Route /about (About Us)",
+      "passed": true,
+      "details": "Found heading: \"Protecting Public Health Through Digital\"",
+      "timestamp": "2026-10-09T10:16:10.064Z"
+    },
+    {
+      "name": "Route /contact (Contact & Support)",
+      "passed": true,
+      "details": "Found heading: \"Contact the Food Safety Desk\"",
+      "timestamp": "2026-10-09T10:16:11.093Z"
+    },
+    {
+      "name": "Route /login (Citizen Login)",
+      "passed": true,
+      "details": "Found heading: \"Smart Food Safety,\nUnified Oversight Por\"",
+      "timestamp": "2026-10-09T10:16:12.117Z"
+    },
+    {
+      "name": "Route /register (Citizen Registration)",
+      "passed": true,
+      "details": "Found heading: \"Create Account\"",
+      "timestamp": "2026-10-09T10:16:13.175Z"
+    },
+    {
+      "name": "Route /admin-login (Admin Login Portal)",
+      "passed": true,
+      "details": "Found heading: \"Administrator Login\"",
+      "timestamp": "2026-10-09T10:16:14.156Z"
+    },
+    {
+      "name": "Route /authority-login (Authority Login Portal)",
+      "passed": true,
+      "details": "Found heading: \"Authorized Authority\"",
+      "timestamp": "2026-10-09T10:16:15.200Z"
+    },
+    {
+      "name": "Route /unauthorized (Access Denied / Unauthorized)",
+      "passed": true,
+      "details": "Found heading: \"Access Restricted\"",
+      "timestamp": "2026-10-09T10:16:16.220Z"
+    }
+  ],
+  "interactions": [
+    {
+      "name": "Public Navbar rendered with navigation links",
+      "passed": true,
+      "details": "Found 4 links (Home, About Platform, Contact & Support, AI Screening Lab)",
+      "timestamp": "2026-10-09T10:16:16.883Z"
+    },
+    {
+      "name": "Login page multi-role tabs exist",
+      "passed": true,
+      "details": "Citizen, Admin, and Authority tabs functional",
+      "timestamp": "2026-10-09T10:16:17.520Z"
+    },
+    {
+      "name": "Invalid credentials display error feedback",
+      "passed": true,
+      "details": "Feedback: \"Invalid email or password.\"",
+      "timestamp": "2026-10-09T10:16:17.772Z"
+    },
+    {
+      "name": "Grievance form rejects empty submission",
+      "passed": true,
+      "details": "Validation alert triggered",
+      "timestamp": "2026-10-09T10:16:20.939Z"
+    },
+    {
+      "name": "Tracking non-existent ID renders error notice",
+      "passed": true,
+      "details": "Not found alert rendered",
+      "timestamp": "2026-10-09T10:16:25.653Z"
+    },
+    {
+      "name": "Admin Add Shop Modal opens interactively",
+      "passed": true,
+      "details": "Modal rendered with form fields",
+      "timestamp": "2026-10-09T10:16:35.640Z"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Citizen login redirects to Customer Dashboard",
+      "passed": true,
+      "details": "http://localhost:5173/customer-dashboard",
+      "timestamp": "2026-10-09T10:16:19.396Z"
+    },
+    {
+      "name": "Citizen submits complaint in browser and receives Complaint ID",
+      "passed": true,
+      "details": "Generated Tracking ID: FSA-2026-916784",
+      "timestamp": "2026-10-09T10:16:23.608Z"
+    },
+    {
+      "name": "Citizen tracks grievance #FSA-2026-916784",
+      "passed": true,
+      "details": "Result card & details rendered with 100% opacity",
+      "timestamp": "2026-10-09T10:16:24.938Z"
+    },
+    {
+      "name": "FSSAI DART Adulteration screening tool executes in browser",
+      "passed": true,
+      "details": "Outcome banner & risk profile rendered",
+      "timestamp": "2026-10-09T10:16:27.380Z"
+    },
+    {
+      "name": "Citizen notifications feed view loads",
+      "passed": true,
+      "details": "Notification feed active",
+      "timestamp": "2026-10-09T10:16:28.490Z"
+    },
+    {
+      "name": "Admin login redirects to Admin Dashboard",
+      "passed": true,
+      "details": "http://localhost:5173/admin-dashboard",
+      "timestamp": "2026-10-09T10:16:30.020Z"
+    },
+    {
+      "name": "Admin Manage Complaints table rendered",
+      "passed": true,
+      "details": "Complaints roster loaded",
+      "timestamp": "2026-10-09T10:16:31.709Z"
+    },
+    {
+      "name": "Admin updates complaint status to VERIFIED in browser",
+      "passed": true,
+      "details": "Status saved and forwarded to Authority",
+      "timestamp": "2026-10-09T10:16:34.108Z"
+    },
+    {
+      "name": "Admin Intelligence & Reports dashboard renders",
+      "passed": true,
+      "details": "KPI metrics & trend charts loaded",
+      "timestamp": "2026-10-09T10:16:36.854Z"
+    },
+    {
+      "name": "Admin Alert Feed center loads",
+      "passed": true,
+      "details": "Admin alert dispatch active",
+      "timestamp": "2026-10-09T10:16:37.934Z"
+    },
+    {
+      "name": "Authority login redirects to Authority Dashboard",
+      "passed": true,
+      "details": "http://localhost:5173/authority-dashboard",
+      "timestamp": "2026-10-09T10:16:39.397Z"
+    },
+    {
+      "name": "Authority Verified Complaints queue loads",
+      "passed": true,
+      "details": "Incoming referred dockets accessible",
+      "timestamp": "2026-10-09T10:16:40.851Z"
+    },
+    {
+      "name": "Authority Active Investigations view loads",
+      "passed": true,
+      "details": "Active investigation registry accessible",
+      "timestamp": "2026-10-09T10:16:41.963Z"
+    },
+    {
+      "name": "Authority Enforcement Actions center loads",
+      "passed": true,
+      "details": "Statutory notice interface active",
+      "timestamp": "2026-10-09T10:16:43.122Z"
+    },
+    {
+      "name": "Authority Officer Case Docket loads",
+      "passed": true,
+      "details": "Comprehensive caseload docket accessible",
+      "timestamp": "2026-10-09T10:16:44.307Z"
+    },
+    {
+      "name": "Authority Reports & Analytics loads",
+      "passed": true,
+      "details": "Enforcement rate & category metrics active",
+      "timestamp": "2026-10-09T10:16:45.513Z"
+    }
+  ],
+  "security": [
+    {
+      "name": "Unauthenticated visit to /customer-dashboard redirects to /login",
+      "passed": true,
+      "details": "http://localhost:5173/login",
+      "timestamp": "2026-10-09T10:16:46.227Z"
+    },
+    {
+      "name": "Unauthenticated visit to /admin-dashboard blocked",
+      "passed": true,
+      "details": "http://localhost:5173/login",
+      "timestamp": "2026-10-09T10:16:46.823Z"
+    },
+    {
+      "name": "Unauthenticated visit to /authority-dashboard blocked",
+      "passed": true,
+      "details": "http://localhost:5173/login",
+      "timestamp": "2026-10-09T10:16:47.424Z"
+    },
+    {
+      "name": "Citizen role blocked from /admin-dashboard",
+      "passed": true,
+      "details": "Routed to: http://localhost:5173/unauthorized",
+      "timestamp": "2026-10-09T10:16:48.760Z"
+    },
+    {
+      "name": "Citizen role blocked from /authority-dashboard",
+      "passed": true,
+      "details": "Routed to: http://localhost:5173/unauthorized",
+      "timestamp": "2026-10-09T10:16:49.383Z"
+    },
+    {
+      "name": "Authority role blocked from /admin-dashboard",
+      "passed": true,
+      "details": "Routed to: http://localhost:5173/unauthorized",
+      "timestamp": "2026-10-09T10:16:50.723Z"
+    },
+    {
+      "name": "Customer B blocked from tracking Customer A complaint (Browser IDOR Prevention)",
+      "passed": true,
+      "details": "Feedback: \"Access denied. You do not have permission to view this complaint.\"",
+      "timestamp": "2026-10-09T10:16:52.115Z"
+    }
+  ],
+  "accessibility": [
+    {
+      "page": "Homepage",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 0,
+      "totalImages": 0
+    },
+    {
+      "page": "About Us",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 0,
+      "totalImages": 0
+    },
+    {
+      "page": "Contact & Support",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 4,
+      "totalImages": 0
+    },
+    {
+      "page": "Citizen Login",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 2,
+      "totalImages": 0
+    },
+    {
+      "page": "Citizen Registration",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 5,
+      "totalImages": 0
+    },
+    {
+      "page": "Admin Login Portal",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 2,
+      "totalImages": 0
+    },
+    {
+      "page": "Authority Login Portal",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 2,
+      "totalImages": 0
+    },
+    {
+      "page": "Access Denied / Unauthorized",
+      "h1Count": 1,
+      "issues": [],
+      "totalInputs": 0,
+      "totalImages": 0
+    }
+  ],
+  "performance": [
+    {
+      "page": "Homepage",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 2,
+      "dcl": 77,
+      "loadTime": 79,
+      "fcp": 128
+    },
+    {
+      "page": "About Us",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 2,
+      "dcl": 68,
+      "loadTime": 69,
+      "fcp": 144
+    },
+    {
+      "page": "Contact & Support",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 3,
+      "dcl": 62,
+      "loadTime": 64,
+      "fcp": 180
+    },
+    {
+      "page": "Citizen Login",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 3,
+      "dcl": 79,
+      "loadTime": 81,
+      "fcp": null
+    },
+    {
+      "page": "Citizen Registration",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 3,
+      "dcl": 69,
+      "loadTime": 71,
+      "fcp": null
+    },
+    {
+      "page": "Admin Login Portal",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 2,
+      "dcl": 68,
+      "loadTime": 69,
+      "fcp": null
+    },
+    {
+      "page": "Authority Login Portal",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 2,
+      "dcl": 57,
+      "loadTime": 58,
+      "fcp": null
+    },
+    {
+      "page": "Access Denied / Unauthorized",
+      "dnsTime": 0,
+      "tcpTime": 0,
+      "ttfb": 2,
+      "dcl": 55,
+      "loadTime": 56,
+      "fcp": null
+    }
+  ],
+  "screenshots_captured": [
+    "01-home-320px-mobile-narrow.png",
+    "01-home-390px-mobile-standard.png",
+    "01-home-768px-tablet-portrait.png",
+    "01-home-1024px-tablet-landscape.png",
+    "01-home-1440px-desktop-wide.png",
+    "route--.png",
+    "route--about.png",
+    "route--contact.png",
+    "route--login.png",
+    "route--register.png",
+    "route--admin-login.png",
+    "route--authority-login.png",
+    "route--unauthorized.png",
+    "04-login-tabs-desktop.png",
+    "05-login-invalid-error.png",
+    "09-customer-dashboard-desktop.png",
+    "09-customer-dashboard-mobile.png",
+    "10-submit-complaint-form.png",
+    "11-submit-complaint-empty-validation.png",
+    "12-complaint-submitted-success.png",
+    "13-track-complaint-result.png",
+    "14-track-complaint-invalid-id.png",
+    "16-adulteration-screening-form.png",
+    "17-adulteration-screening-result.png",
+    "18-customer-notifications-feed.png",
+    "19-admin-dashboard-desktop.png",
+    "19-admin-dashboard-mobile.png",
+    "20-manage-complaints-roster.png",
+    "21-admin-complaint-details.png",
+    "22-shop-management-roster.png",
+    "23-shop-management-add-modal.png",
+    "24-admin-reports-analytics.png",
+    "25-admin-notifications-center.png",
+    "26-authority-dashboard-desktop.png",
+    "26-authority-dashboard-mobile.png",
+    "27-authority-verified-complaints.png",
+    "28-authority-active-investigations.png",
+    "29-authority-enforcement-actions.png",
+    "30-authority-case-docket.png",
+    "31-authority-reports-analytics.png",
+    "32-unauthorized-access-guard.png",
+    "15-track-complaint-idor-denied.png"
+  ],
+  "summary": {
+    "passed": 42,
+    "failed": 0,
+    "blocked": 0
+  }
+}

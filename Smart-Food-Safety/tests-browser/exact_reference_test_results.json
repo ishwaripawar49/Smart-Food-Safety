@@ -1,0 +1,264 @@
+{
+  "passedTests": 43,
+  "failedTests": 0,
+  "resultsLog": [
+    {
+      "id": "SETUP-BROWSER",
+      "status": "PASSED",
+      "message": "Local Chrome launched successfully",
+      "details": ""
+    },
+    {
+      "id": "HOME-NAVBAR-LOGO",
+      "status": "PASSED",
+      "message": "Navbar has green 'FoodSafe AI 2.0' branding (found: 'FoodSafe AI 2.0Smart Food Safety Platform')",
+      "details": ""
+    },
+    {
+      "id": "HOME-NAVBAR-LOGIN-BTN",
+      "status": "PASSED",
+      "message": "Navbar contains prominent green Login button (#nav-login-btn)",
+      "details": ""
+    },
+    {
+      "id": "HOME-HERO-SECTION",
+      "status": "PASSED",
+      "message": "Soft botanical pale-green hero section (.exact-hero-section) is present",
+      "details": ""
+    },
+    {
+      "id": "HOME-HERO-HEADING",
+      "status": "PASSED",
+      "message": "Heading matches exact reference: 'Safer Food for Healthier Communities'",
+      "details": ""
+    },
+    {
+      "id": "HOME-HERO-BADGE",
+      "status": "PASSED",
+      "message": "Introductory badge present above heading: 'Smart Food Safety Platform'",
+      "details": ""
+    },
+    {
+      "id": "HOME-HERO-DESC",
+      "status": "PASSED",
+      "message": "Supporting paragraph matches reference description",
+      "details": ""
+    },
+    {
+      "id": "HOME-CTA-REPORT",
+      "status": "PASSED",
+      "message": "Solid emerald-green button '#hero-report-btn' contains 'Report Food Problem'",
+      "details": ""
+    },
+    {
+      "id": "HOME-CTA-EASY",
+      "status": "PASSED",
+      "message": "White outlined 'FoodSafe Easy' button with 'सोपी पद्धत' pill present",
+      "details": ""
+    },
+    {
+      "id": "HOME-HERO-BASKET-IMG",
+      "status": "PASSED",
+      "message": "Large fresh vegetable basket on wooden tabletop loaded with natural dimensions (naturalWidth > 0)",
+      "details": ""
+    },
+    {
+      "id": "HOME-FEATURE-CARDS-4",
+      "status": "PASSED",
+      "message": "All 4 white feature cards are present",
+      "details": ""
+    },
+    {
+      "id": "HOME-FEATURE-CIRCLES",
+      "status": "PASSED",
+      "message": "4 feature cards have distinct colored circular icon badges (found: 4)",
+      "details": ""
+    },
+    {
+      "id": "HOME-WHY-SECTION",
+      "status": "PASSED",
+      "message": "'Why FoodSafe AI?' informational section header present",
+      "details": ""
+    },
+    {
+      "id": "HOME-CIRCLES-CONTAINER",
+      "status": "PASSED",
+      "message": "Overlapping circular food images container is present",
+      "details": ""
+    },
+    {
+      "id": "HOME-4-CIRCLES-LOADED",
+      "status": "PASSED",
+      "message": "All 4 circular photographic images (vegetables, dairy, grains, spices) loaded with natural dimensions",
+      "details": ""
+    },
+    {
+      "id": "HOME-DEEP-FOOTER",
+      "status": "PASSED",
+      "message": "Deep-green footer (.exact-deep-footer) present with regulatory notice",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-SPLIT-PAGE",
+      "status": "PASSED",
+      "message": "Login page (.exact-login-page) with split composition present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-LEFT-HEADING",
+      "status": "PASSED",
+      "message": "Left panel headline: 'Safe Food Brighter Communities'",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-LEFT-PARA",
+      "status": "PASSED",
+      "message": "Left panel supporting paragraph: 'Together, we can identify food safety concerns...'",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-RIGHT-CARD",
+      "status": "PASSED",
+      "message": "Large rounded white login card (.exact-login-card) present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-CARD-BRANDING",
+      "status": "PASSED",
+      "message": "Card contains centered green shield logo and 'FoodSafe AI 2.0' branding",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-CARD-TITLE",
+      "status": "PASSED",
+      "message": "Card title exactly matches: 'Login to Your Account'",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-ROLE-TABS",
+      "status": "PASSED",
+      "message": "Role tabs present: Citizen, Administrator, Authority (Citizen, Administrator, FSSAI Authority)",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-INPUT-FIELDS",
+      "status": "PASSED",
+      "message": "Email and Password inputs are present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-PASS-TOGGLE-BTN",
+      "status": "PASSED",
+      "message": "Password visibility icon button is present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-PASS-TOGGLE-FUNC",
+      "status": "PASSED",
+      "message": "Password toggle correctly switches input type between password and text",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-SUBMIT-BTN",
+      "status": "PASSED",
+      "message": "Full-width emerald-green Login button (#login-submit-btn) is present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-NO-GOOGLE-BTN",
+      "status": "PASSED",
+      "message": "Verified NO inactive Google OAuth button is present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-DEMO-FILL-BTN",
+      "status": "PASSED",
+      "message": "Fill demo credentials helper button is present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-NAV-LINKS",
+      "status": "PASSED",
+      "message": "Create Account and Back to Public Website links present",
+      "details": ""
+    },
+    {
+      "id": "AUTH-INVALID-CREDENTIALS",
+      "status": "PASSED",
+      "message": "Invalid login shows clear error message",
+      "details": ""
+    },
+    {
+      "id": "AUTH-CITIZEN-LOGIN",
+      "status": "PASSED",
+      "message": "Citizen authenticated and redirected to /customer-dashboard (URL: http://localhost:5175/customer-dashboard)",
+      "details": ""
+    },
+    {
+      "id": "AUTH-ADMIN-LOGIN",
+      "status": "PASSED",
+      "message": "Administrator authenticated and redirected to /admin-dashboard (URL: http://localhost:5175/admin-dashboard)",
+      "details": ""
+    },
+    {
+      "id": "AUTH-AUTHORITY-LOGIN",
+      "status": "PASSED",
+      "message": "FSSAI Authority authenticated and redirected to /authority-dashboard (URL: http://localhost:5175/authority-dashboard)",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-390PX",
+      "status": "PASSED",
+      "message": "Home at Mobile (390px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-390PX",
+      "status": "PASSED",
+      "message": "Login at Mobile (390px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-768PX",
+      "status": "PASSED",
+      "message": "Home at Tablet Portrait (768px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-768PX",
+      "status": "PASSED",
+      "message": "Login at Tablet Portrait (768px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-1024PX",
+      "status": "PASSED",
+      "message": "Home at Tablet Landscape (1024px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-1024PX",
+      "status": "PASSED",
+      "message": "Login at Tablet Landscape (1024px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-1440PX",
+      "status": "PASSED",
+      "message": "Home at Desktop (1440px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-1440PX",
+      "status": "PASSED",
+      "message": "Login at Desktop (1440px): No horizontal overflow detected",
+      "details": ""
+    },
+    {
+      "id": "CONSOLE-INTEGRITY",
+      "status": "PASSED",
+      "message": "Zero critical console errors (count: 0)",
+      "details": ""
+    }
+  ]
+}

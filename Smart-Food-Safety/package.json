@@ -1,0 +1,15 @@
+{
+  "name": "smart-food-safety",
+  "version": "1.0.0",
+  "description": "Smart Food Safety Complaint and Monitoring Platform",
+  "scripts": {
+    "dev": "node run.js",
+    "start": "node run.js",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test:browser": "node tests-browser/test_phase5_browser_verification.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}

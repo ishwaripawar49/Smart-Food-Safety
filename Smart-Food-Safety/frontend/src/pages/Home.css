@@ -1,0 +1,585 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-page {
+  min-height: 100vh;
+  background: #f1faf4;
+  font-family: Arial, sans-serif;
+  color: #14251d;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  height: 110px;
+  background: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 50px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.logo-shield {
+  width: 58px;
+  height: 68px;
+
+  background: #159447;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 40px;
+  font-weight: bold;
+
+  clip-path: polygon(
+    50% 0%,
+    90% 15%,
+    90% 60%,
+    50% 100%,
+    10% 60%,
+    10% 15%
+  );
+}
+
+
+.logo-section h2 {
+  margin: 0;
+  color: #176d39;
+  font-size: 25px;
+}
+
+
+.logo-section p {
+  margin: 3px 0 0;
+  font-size: 15px;
+}
+
+
+/* NAV BUTTONS */
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+
+.nav-buttons a {
+  text-decoration: none;
+
+  color: #176d39;
+
+  font-weight: bold;
+
+  padding: 13px 25px;
+
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+
+.nav-buttons a:hover {
+  background: #e2f4e7;
+}
+
+
+.nav-buttons .admin-login {
+  background: #116b36;
+  color: white;
+}
+
+
+.nav-buttons .admin-login:hover {
+  background: #0c5429;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero-section {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 50px;
+
+  padding: 45px 50px 30px;
+
+  max-width: 1600px;
+
+  margin: auto;
+}
+
+
+/* LEFT */
+
+.hero-content {
+  flex: 1;
+
+  max-width: 650px;
+}
+
+
+.small-heading {
+  color: #18733c;
+
+  font-size: 23px;
+
+  font-weight: bold;
+
+  margin-bottom: 20px;
+}
+
+
+.hero-content h1 {
+  font-size: 58px;
+
+  color: #137438;
+
+  margin: 0 0 10px;
+
+  line-height: 1.1;
+}
+
+
+.hero-content h2 {
+  font-size: 38px;
+
+  margin: 0 0 28px;
+
+  color: #15251e;
+}
+
+
+.hero-description {
+  font-size: 21px;
+
+  line-height: 1.7;
+
+  color: #38433e;
+
+  max-width: 610px;
+}
+
+
+/* BUTTONS */
+
+.hero-buttons {
+  display: flex;
+
+  gap: 22px;
+
+  margin-top: 30px;
+}
+
+
+.hero-buttons a {
+  text-decoration: none;
+
+  font-size: 19px;
+
+  font-weight: bold;
+
+  padding: 19px 30px;
+
+  border-radius: 8px;
+
+  display: inline-block;
+}
+
+
+.report-button {
+  background: #159447;
+
+  color: white;
+
+  border: 2px solid #159447;
+}
+
+
+.report-button:hover {
+  background: #0f7436;
+}
+
+
+.track-button {
+  color: #176d39;
+
+  background: white;
+
+  border: 2px solid #176d39;
+}
+
+
+.track-button:hover {
+  background: #e4f5e9;
+}
+
+
+/* FEATURES */
+
+.features {
+  margin-top: 35px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+
+.feature {
+  font-size: 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+
+.feature span {
+  width: 32px;
+  height: 32px;
+
+  background: #159447;
+
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+
+/* =========================
+   FOOD IMAGE
+========================= */
+
+.hero-image-container {
+  flex: 1;
+
+  max-width: 760px;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+.hero-image {
+  width: 100%;
+
+  height: 660px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+
+/* =========================
+   BOTTOM FEATURES
+========================= */
+
+.bottom-features {
+  max-width: 1500px;
+
+  margin: 10px auto 35px;
+
+  padding: 25px;
+
+  background: #e5f5e9;
+
+  border: 1px solid #c7e4ce;
+
+  border-radius: 15px;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.bottom-feature {
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  padding: 10px 25px;
+
+  border-right: 1px solid #c7dfce;
+}
+
+
+.bottom-feature:last-child {
+  border-right: none;
+}
+
+
+.feature-icon {
+  min-width: 58px;
+  height: 58px;
+
+  border-radius: 50%;
+
+  background: #159447;
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 28px;
+}
+
+
+.bottom-feature h3 {
+  margin: 0 0 7px;
+
+  font-size: 22px;
+}
+
+
+.bottom-feature p {
+  margin: 0;
+
+  font-size: 16px;
+
+  line-height: 1.4;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 1000px) {
+
+  .navbar {
+    height: auto;
+
+    padding: 20px;
+
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+
+  .nav-buttons {
+    gap: 5px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+
+  .hero-section {
+    flex-direction: column;
+
+    padding: 30px 20px;
+  }
+
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+
+  .hero-content h2 {
+    font-size: 30px;
+  }
+
+
+  .hero-image-container {
+    width: 100%;
+  }
+
+
+  .hero-image {
+    height: auto;
+  }
+
+
+  .bottom-features {
+    grid-template-columns: 1fr;
+
+    margin: 20px;
+  }
+
+
+  .bottom-feature {
+    border-right: none;
+
+    border-bottom: 1px solid #c7dfce;
+
+    padding: 20px;
+  }
+
+
+  .bottom-feature:last-child {
+    border-bottom: none;
+  }
+
+}
+
+/* =========================================
+   HOME PAGE - COMPLAINT BUTTONS
+   ========================================= */
+
+.home-action-buttons {
+  display: flex;
+  gap: 22px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+/* Report a Complaint */
+.report-complaint-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  min-width: 230px;
+  padding: 14px 24px;
+
+  background: #168b43;
+  color: white;
+
+  border: 2px solid #168b43;
+  border-radius: 9px;
+
+  font-size: 17px;
+  font-weight: 700;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: all 0.25s ease;
+}
+
+.report-complaint-btn:hover {
+  background: white;
+  color: #168b43;
+  border-color: #168b43;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(22, 139, 67, 0.18);
+}
+
+
+/* Track Complaint */
+.track-complaint-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  min-width: 230px;
+  padding: 14px 24px;
+
+  background: white;
+  color: #168b43;
+
+  border: 2px solid #168b43;
+  border-radius: 9px;
+
+  font-size: 17px;
+  font-weight: 700;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: all 0.25s ease;
+}
+
+.track-complaint-btn:hover {
+  background: #168b43;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(22, 139, 67, 0.18);
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 600px) {
+  .home-action-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .report-complaint-btn,
+  .track-complaint-btn {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* ============================= */
+/* FOOD IMAGE - CLEAN VERSION */
+/* ============================= */
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 24px;
+}

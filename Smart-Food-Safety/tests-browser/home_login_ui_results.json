@@ -1,0 +1,264 @@
+{
+  "passedTests": 43,
+  "failedTests": 0,
+  "resultsLog": [
+    {
+      "id": "SETUP-BROWSER",
+      "status": "PASSED",
+      "message": "Local Chrome launched successfully",
+      "details": ""
+    },
+    {
+      "id": "HOME-HERO-HEADING",
+      "status": "PASSED",
+      "message": "Hero heading matches approved 'Safer Food for Healthier Communities'",
+      "details": "Safer Food for Healthier Communities"
+    },
+    {
+      "id": "HOME-HERO-DESC",
+      "status": "PASSED",
+      "message": "Hero description explains community food safety goals",
+      "details": "Report food safety concerns, identify possible adulteration, and help build safer food practices for everyone."
+    },
+    {
+      "id": "HOME-CTA-REPORT",
+      "status": "PASSED",
+      "message": "Primary CTA '#hero-report-btn' (Report Food Problem) is present",
+      "details": ""
+    },
+    {
+      "id": "HOME-CTA-EASY",
+      "status": "PASSED",
+      "message": "Secondary CTA '#hero-easy-complaint-btn' (FoodSafe Easy) is present",
+      "details": ""
+    },
+    {
+      "id": "HOME-HERO-IMG",
+      "status": "PASSED",
+      "message": "Hero produce basket image loaded successfully without broken assets",
+      "details": ""
+    },
+    {
+      "id": "HOME-FLOAT-BADGES",
+      "status": "PASSED",
+      "message": "Hero floating badges present (found 2)",
+      "details": ""
+    },
+    {
+      "id": "FEATURE-1-COMPLAINT",
+      "status": "PASSED",
+      "message": "Card 1: 'File a Complaint' is present",
+      "details": ""
+    },
+    {
+      "id": "FEATURE-2-LOCATION",
+      "status": "PASSED",
+      "message": "Card 2: 'Add Location' (GPS/Maps) is present",
+      "details": ""
+    },
+    {
+      "id": "FEATURE-3-VOICE",
+      "status": "PASSED",
+      "message": "Card 3: 'Use Your Voice' (Speech recognition) is present",
+      "details": ""
+    },
+    {
+      "id": "FEATURE-4-CHANGE",
+      "status": "PASSED",
+      "message": "Card 4: 'Help Create Change' is present",
+      "details": ""
+    },
+    {
+      "id": "WHY-SECTION-EXISTS",
+      "status": "PASSED",
+      "message": "Why FoodSafe AI informational section is present",
+      "details": ""
+    },
+    {
+      "id": "WHY-COLLAGE-IMG",
+      "status": "PASSED",
+      "message": "Food variety collage image (vegetables, milk, grains, spices) loaded successfully",
+      "details": ""
+    },
+    {
+      "id": "WHY-FOOD-TAGS",
+      "status": "PASSED",
+      "message": "Collage includes 4 food categories (Vegetables, Milk, Grains, Spices)",
+      "details": "Fresh Vegetables, Pure Milk, Whole Grains, Natural Spices"
+    },
+    {
+      "id": "WHY-4-PILLARS",
+      "status": "PASSED",
+      "message": "Why section contains all 4 key benefit pillars",
+      "details": "Report Unsafe Food, Support Food Safety Review, Explainable AI Insights, Healthier Communities"
+    },
+    {
+      "id": "WHY-DISCLAIMER",
+      "status": "PASSED",
+      "message": "Independent platform triage disclaimer note is clearly displayed",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-LEFT-HEADING",
+      "status": "PASSED",
+      "message": "Left panel displays 'Safe Food Brighter Communities' headline",
+      "details": "Safe Food Brighter Communities"
+    },
+    {
+      "id": "LOGIN-LEFT-SUBTEXT",
+      "status": "PASSED",
+      "message": "Left panel displays approved supporting community message",
+      "details": "Together, we can identify food safety concerns and build a healthier tomorrow."
+    },
+    {
+      "id": "LOGIN-RIGHT-PANEL",
+      "status": "PASSED",
+      "message": "Right panel clean white card is present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-NO-GOOGLE-OAUTH",
+      "status": "PASSED",
+      "message": "Verified NO non-functional Google login button exists",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-ROLE-TABS",
+      "status": "PASSED",
+      "message": "Role selector tabs present: Citizen, Administrator, FSSAI Authority",
+      "details": "Citizen | Administrator | FSSAI Authority | Fill demo credentials"
+    },
+    {
+      "id": "LOGIN-DEMO-FILL-BTN",
+      "status": "PASSED",
+      "message": "'Fill demo credentials' helper button is present",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-DEMO-FILL-VALUES",
+      "status": "PASSED",
+      "message": "Demo fill populated customer credentials correctly (customer@test.com)",
+      "details": ""
+    },
+    {
+      "id": "LOGIN-PASSWORD-TOGGLE",
+      "status": "PASSED",
+      "message": "Password show/hide toggle toggles input between 'password' and 'text'",
+      "details": ""
+    },
+    {
+      "id": "AUTH-INVALID-CREDENTIALS",
+      "status": "PASSED",
+      "message": "Invalid credentials correctly display error notification",
+      "details": ""
+    },
+    {
+      "id": "AUTH-CUSTOMER-LOGIN",
+      "status": "PASSED",
+      "message": "Customer login authenticated and redirected to /customer-dashboard (URL: http://localhost:5175/customer-dashboard)",
+      "details": ""
+    },
+    {
+      "id": "AUTH-ADMIN-LOGIN",
+      "status": "PASSED",
+      "message": "Administrator login authenticated and redirected to /admin-dashboard (URL: http://localhost:5175/admin-dashboard)",
+      "details": ""
+    },
+    {
+      "id": "AUTH-AUTHORITY-LOGIN",
+      "status": "PASSED",
+      "message": "Authority login authenticated and redirected to /authority-dashboard (URL: http://localhost:5175/authority-dashboard)",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-320PX",
+      "status": "PASSED",
+      "message": "Home page at 320px (Mobile Small) [320px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-320PX",
+      "status": "PASSED",
+      "message": "Login page at 320px (Mobile Small) [320px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-360PX",
+      "status": "PASSED",
+      "message": "Home page at 360px (Mobile Compact) [360px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-360PX",
+      "status": "PASSED",
+      "message": "Login page at 360px (Mobile Compact) [360px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-390PX",
+      "status": "PASSED",
+      "message": "Home page at 390px (iPhone Standard) [390px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-390PX",
+      "status": "PASSED",
+      "message": "Login page at 390px (iPhone Standard) [390px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-430PX",
+      "status": "PASSED",
+      "message": "Home page at 430px (iPhone Plus/Max) [430px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-430PX",
+      "status": "PASSED",
+      "message": "Login page at 430px (iPhone Plus/Max) [430px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-768PX",
+      "status": "PASSED",
+      "message": "Home page at 768px (Tablet Portrait) [768px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-768PX",
+      "status": "PASSED",
+      "message": "Login page at 768px (Tablet Portrait) [768px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-1024PX",
+      "status": "PASSED",
+      "message": "Home page at 1024px (Tablet Landscape) [1024px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-1024PX",
+      "status": "PASSED",
+      "message": "Login page at 1024px (Tablet Landscape) [1024px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-HOME-1440PX",
+      "status": "PASSED",
+      "message": "Home page at 1440px (Desktop Wide) [1440px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "RESPONSIVE-LOGIN-1440PX",
+      "status": "PASSED",
+      "message": "Login page at 1440px (Desktop Wide) [1440px]: No horizontal overflow",
+      "details": ""
+    },
+    {
+      "id": "CONSOLE-ERRORS",
+      "status": "PASSED",
+      "message": "No critical browser console errors detected (count: 0)",
+      "details": ""
+    }
+  ]
+}
